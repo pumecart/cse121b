@@ -3,10 +3,10 @@
 /* VARIABLES */
 
 // Step 1: declare and instantiate a variable to hold your name
-const fullname = ("Pumehana Cartagena");
+const fullname = "Pumehana Cartagena";
 
 // Step 2: place the value of the name variable into the HTML file (hint: document.querySelector())
-document.querySelector("#name").innerHTML`<strong>${fullname}</strong>`;
+document.querySelector("#name").innerHTML = `<strong>${fullname}</strong>`;
 
 // Step 3: declare and instantiate a variable to hold the current year
 const currentYear = new Date().getFullYear();
@@ -16,6 +16,7 @@ document.querySelector("#year").innerHTML = currentYear;
 
 // Step 5: declare and instantiate a variable to hold the name of your picture
 const profileImage = "images/profile.jpg";
+const profileAlt = "Pumehana Cartagena Profile Pic"
 
 // Step 6: copy your image into the "images" folder
 
