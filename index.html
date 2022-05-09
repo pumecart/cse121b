@@ -11,13 +11,26 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="..\">🏠</a></li>
+            <li><a href="cse121b\wk1\hello.html">Week 1</a></li>
+            <li><a href="..\cse121b\wk2\task2.html">Week 2</a></li>
+            <li><a class="active" href="wk3\task3.html">Week 3</a></li>
+        </ul>
+    </nav>
     <header>
         <h1>CSE121B - JavaScript Programming</h1>
         <h2>Pumehana Cartagena</h2>
     </header>
     <main></main>
-    <footer></footer>
+    <footer>
+        <p>&copy;<span id="year"></span> | Pumehana Cartagena | CSE 121B</p>
+        <p>Last Update: <span id="lastModified"></span></p>
+    </footer>
 
-    
+    <script src="scripts/date.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
