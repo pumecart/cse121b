@@ -15,25 +15,25 @@ let profile = {
 profile.placesLived = [
     {
         place: 'Hawaii',
-        length: 25,
+        length: '25 years',
         costOfLiving: 'Very High',
         closestTemple: 'Laie Temple',
     },
     {
         place: 'Utah',
-        length: 2,
+        length: '2 years',
         costOfLiving: 'Low',
         closestTemple: 'Provo Utah Temple',
     },
     {
         place: 'Massachusetts',
-        length: 4,
+        length: '4 years',
         costOfLiving: 'Higher than Utah',
         closestTemple: 'Hartford CT Temple',
     },
     {
         place: 'Connecticut',
-        length: 7,
+        length: '7 years',
         costOfLiving: "Higher than Massachusetts",
         closestTemple: 'Hartford CT Temple',
     }
