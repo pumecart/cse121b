@@ -193,7 +193,6 @@ const filterBy = () => {
   const dedicatedAfter2000 = templeList.filter(
     (dedicated) => temples.dedicated > 2000
   ); 
-  console.log(dedicatedAfter2000);
 
   const dedicatedBefore2000 = templeList.filter(
     (dedicated) => temples.dedicated < 2000
