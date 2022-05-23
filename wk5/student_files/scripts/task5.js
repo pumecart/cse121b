@@ -186,3 +186,18 @@ document.querySelector("#sortBy").addEventListener("change", sortBy);
 
 // Consider adding a "Filter by" feature that allows users to filter the list of temples
 // This will require changes to both the HTML and the JavaScript files
+const filterBy = () => {
+  reset();
+
+  let filterBy = document.querySelector("#filterBy").value;
+  const dedicatedAfter2000 = templeList.filter(
+    (dedicated) => temples.dedicated > 2000
+  ); 
+  console.log(dedicatedAfter2000);
+
+  const dedicatedBefore2000 = templeList.filter(
+    (dedicated) => temples.dedicated < 2000
+  );
+  };
+
+document.querySelector("#filterBy").addEventListener("change", filterBy);
