@@ -191,11 +191,11 @@ const filterBy = () => {
 
   let filterBy = document.querySelector("#filterBy").value;
   const dedicatedAfter2000 = templeList.filter(
-    (dedicated) => temples.dedicated > 2000
+    (dedicated) => dedicated.templeList > 2000
   ); 
 
   const dedicatedBefore2000 = templeList.filter(
-    (dedicated) => temples.dedicated < 2000
+    (dedicated) => dedicated.templeList < 2000
   );
   };
 
